@@ -21,3 +21,5 @@ def execute(&block)
 end
 
 execute { puts "Hello from inside the execute method!" }
+
+#5 execute method is expecting a block that looks like this: &block
